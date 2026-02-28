@@ -130,6 +130,20 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+
+.visitor-map {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* 可选：给地图一个最大宽度，避免在大屏幕上太夸张 */
+.visitor-map > * {
+  max-width: 100%;
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
