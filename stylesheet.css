@@ -133,15 +133,18 @@ h2 {
 
 .clustrmaps-wrapper{
   width: 80%;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
+  text-align: center;
 }
 
-/* 控制地图最大宽度（可调） */
-.clustrmaps-wrapper > *{
-  max-width: 500px;
+/* Make the injected widget keep its own natural width and be centered */
+.clustrmaps-wrapper #clustrmaps,
+.clustrmaps-wrapper iframe,
+.clustrmaps-wrapper canvas,
+.clustrmaps-wrapper > div{
+  display: inline-block !important;
+  max-width: 100%;
 }
+
 span.highlight {
   background-color: #ffffd0;
 }
