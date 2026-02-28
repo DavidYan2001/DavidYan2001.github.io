@@ -135,15 +135,12 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 
-/* 控制“地球”的显示大小（可按你喜好调） */
-.clustrmaps-wrapper canvas,
-.clustrmaps-wrapper iframe,
-.clustrmaps-wrapper #clstr_globe{
-  max-width: 260px;
+/* 控制地图最大宽度（可调） */
+.clustrmaps-wrapper > *{
+  max-width: 640px;
 }
 span.highlight {
   background-color: #ffffd0;
