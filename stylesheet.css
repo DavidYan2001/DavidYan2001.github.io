@@ -132,7 +132,7 @@ h2 {
 
 
 .clustrmaps-wrapper{
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -140,7 +140,7 @@ h2 {
 
 /* 控制地图最大宽度（可调） */
 .clustrmaps-wrapper > *{
-  max-width: 640px;
+  max-width: 500px;
 }
 span.highlight {
   background-color: #ffffd0;
