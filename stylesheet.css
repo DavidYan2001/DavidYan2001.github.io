@@ -131,7 +131,7 @@ h2 {
 }
 
 
-.visitor-map {
+.clustrmaps-wrapper{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -139,11 +139,12 @@ h2 {
   overflow: hidden;
 }
 
-/* 可选：给地图一个最大宽度，避免在大屏幕上太夸张 */
-.visitor-map > * {
-  max-width: 100%;
+/* 控制“地球”的显示大小（可按你喜好调） */
+.clustrmaps-wrapper canvas,
+.clustrmaps-wrapper iframe,
+.clustrmaps-wrapper #clstr_globe{
+  max-width: 520px;
 }
-
 span.highlight {
   background-color: #ffffd0;
 }
